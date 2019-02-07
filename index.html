@@ -36,26 +36,28 @@
     </header>
 
     <!-- Profile Section -->
-    <div class = "container-fluid aboutme" id = "profile">
+    <div class = "container-fluid aboutme othercolor" id = "profile">
     	<h1 class = "webcenter"><u>PROFILE</u></h1>
         <div class = "row">
             <div class = "p-lg-auto col-md-6">
-    		  <img src="me1.jpg" class= "mepic" alt="Photo Of Me">
+    		  <img src="thisisme.jpg" class= "mepic" alt="Photo Of Me">
             </div>
             <div class = "col-md-6">
                 <h2 class = "centerabout"><u>About</u></h2>
                 <h5 class = "toppad">
                     <strong>Name: </strong>Jeffrey Burr<br/>
                     <br/>
-                    <strong>Age: </strong>20<br/>
+                    <strong>Age: </strong>21<br/>
                     <br/>
                     <strong>Location: </strong>Berkeley, CA<br/>
+                    <br/>
+                    <strong>Hometown: </strong>Manhattan Beach, CA<br/>
                     <br/>
                     <strong>Phone: </strong>(310) 809-1621<br/>
                     <br/>
                     <strong>Email: </strong><a href = "mailto:jeffreyburr@berkeley.edu" target="_blank">jeffreyburr@berkeley.edu</a><br/>
                     <br/>
-                    <strong>Bio: </strong><span>Originally from Manhattan Beach, CA, I am now an incoming junior at the University of California, Berkeley studying Applied Math with a minor in Computer Science. My goal is to be able to use my exemplary communication skills and my ability to solve problems in an effective and efficienct manner as a software engineer or data scientist post-graduation. A few of my other interests/passions outside of my studies include music, fashion, the outdoors, skiing, and hockey.</span>
+                    <strong>Bio: </strong><span>Originally from Manhattan Beach, CA, I am now a junior at the University of California, Berkeley  working towards a double major in Applied Mathematics and Data Science. My goal is to be able to use my exemplary communication skills and my ability to solve problems in an effective and efficienct manner as a software engineer or data scientist post-graduation. A few of my other interests/passions outside of my studies include music, fashion, the outdoors, skiing, and hockey.</span>
                 </h5>
             </div>
         </div>
@@ -73,45 +75,47 @@
         <div class = "row">
             <div class= " col-md-4 mb-4 mb-md-0 centerabout"> 
                 <h5>
-                    <strong><u>Personalized Restaurant Map</u></strong> <i class="fa fa-map-signs"></i>
+                    <strong><u>Pacman</u></strong> <i class="fa fa-puzzle-piece"></i>
                     </br>
-                    Spring 2017
+                    Python
                 </h5>
             </div>
             <div class ="col-md-8 bigger">
-                <ul>
-                    <li> Visual map of restaurants in Berkeley, CA made in Python that groups restaurants by clusters </li>
-                    <li> Uses a least-squares linear regression to predicts future ratings of unvisited restaurants (based on ratings of similar restaurants)</li>
-                </ul>
+                <p> Constructed numerous search/decision algorithms, applying them to Pacman simulations to optimize the game score when playing against various obstacles</p>
+                <div class = "spacetop2">
+                 	<ul>
+                    	<li> <strong>Algorithms Used:</strong> BFS, DFS, Uniform Cost, A* Search, Minimax (alpha-beta pruning), Value Iteration, Q-Learning (normal, approximate, epsilon greedy), Bayes Nets (exact and approximate inference), Hidden Markov Models, Particle Filtering, Perceptrons, Neural Networks</li>
+                	</ul>
+                </div>
             </div>
         </div>
         <div class = "row">
             <div class= " col-md-4 mb-4 mb-md-0 centerabout">
                 <h5>
-                    <strong><u>Gitlet</u></strong> <i class="fa fa-file"></i>
+                    <strong><u>Restaurant Map</u></strong> <i class="fa fa-map-signs"></i>
                     </br>
-                    Fall 2017
+                    Python
                 </h5>
                 </div>
             <div class ="col-md-8 bigger">
-                <ul>
-                    <li> Developed a Version Control System (mimics function of Git) in Java that can save, store, and merge collections of files </li>
-                    <li> Implements a cryptographic hash function, SHA-1 (Secure Hash 1), to distinguish between files</li>
-                </ul>
+                <p> Map of ranked Berkeley restaurants based on Yelp ratings grouped by location with k-means clustering and predicts ratings of unvisited restaurants by least-squares regression</p>
             </div>
         </div>
         <div class = "row">
             <div class= " col-md-4 mb-4 mb-md-0 centerabout">
                 <h5>
-                    <strong><u> Relational Data Management System</u></strong> <i class="fa fa-archive"></i>
+                    <strong><u> NYC Taxi Rides</u></strong> <i class="fa fa-car"></i>
                     </br>
-                    Fall 2017
+                    Python
                 </h5>
                 </div>
             <div class ="col-md-8 bigger">
-                <ul>
-                    <li> Java program that stores data tables and using a query language (like SQL) for extracting information from the tables</li>
-                </ul>
+                <p>Created a linear regression model with ridge regularization measured by mean absolute error from NYC taxi data to predict the duration of taxi rides</p>
+                <div class = "spacetop2">
+                	<ul>
+                    	<li> Achieved a 97% accuracy when the model was run against a test set of over 1000 data entries</li>
+               		</ul>
+               	</div>
             </div>
         </div>
          <div class = "row">
@@ -119,29 +123,23 @@
                 <h5>
                     <strong><u> Alquerque (Grid-based Board Game)</u></strong> <i class="fa fa-trophy"></i>
                     </br>
-                    Fall 2017
+                    Java
                 </h5>
                 </div>
             <div class ="col-md-8 bigger">
-                <ul>
-                    <li> Designed a strategic two player board game with accompanying GUI in Java</li>
-                    <li> Created an artificial intelligence player that uses a minimax decision making strategy with alpha-beta pruning</li>
-                </ul>
+                <p>Designed a strategic two player board game with accompanying GUI and made an AI player that uses minimax decision making with alpha-beta pruning</p>
             </div>
         </div>
         <div class = "row">
             <div class= " col-md-4 mb-4 mb-md-0 centerabout">
                 <h5>
-                    <strong><u> 2048</u></strong> <i class="fa fa-gamepad"></i>
+                    <strong><u> Database Management System</u></strong> <i class="fa fa-archive"></i>
                     </br>
-                    Fall 2017
+                    Java
                 </h5>
                 </div>
             <div class ="col-md-8 bigger">
-                <ul>
-                    <li> Developed a mini version of the game 2048 accompanied with the tilt/shift tile function</li>
-                    <li> Included implementing a checkValidKey and a merge method in order for the tiles to properly merge and move to their correct locations</li>
-                </ul>
+                <p>Java program that stores data tables and uses its own query language (similar to SQL) for extracting and manipulating information from the tables</p>
             </div>
         </div>
     </div>
@@ -154,7 +152,7 @@
     </div>
 
     <!-- Technical Skills Setion -->
-    <div class = "container-fluid techskill">
+    <div class = "container-fluid techskill othercolor">
         <div class = "row bottompad">
             <div class = "col-md-6 rightbord">
                 <h1 class = "webcenter"><u>TECHNICAL SKILLS</u></h1>
@@ -205,21 +203,33 @@
                             </h4>
                         </div>
                     </div>
-                <h3 class = "lefty spacetop"><i class="fa fa-check"></i><u>Microsoft Office:</u></h3>
+                <h3 class = "lefty spacetop"><i class="fa fa-check"></i><u>Libraries:</u></h3>
                 <div class = "row spacetop">
                     <div class = "col-md-3">
                         <h4>
-                            <ul><li>Word</li></ul>
+                            <ul><li>Pandas</li></ul>
                         </h4>
                     </div>
                     <div class = "col-md-3">
                         <h4>
-                            <ul><li>Excel</li></ul>
+                            <ul><li>Matplotlib</li></ul>
                         </h4>
                     </div>
                     <div class = "col-md-3">
                         <h4>
-                            <ul><li>Powerpoint</li></ul>
+                            <ul><li>Seaborn</li></ul>
+                        </h4>
+                    </div>
+                </div>
+                <div class = "row spacetop">
+                	<div class = "col-md-3">
+                        <h4>
+                            <ul><li>Numpy</li></ul>
+                        </h4>
+                    </div>
+                    <div class = "col-md-3">
+                        <h4>
+                            <ul><li>Sklearn</li></ul>
                         </h4>
                     </div>
                 </div>
@@ -239,13 +249,15 @@
                 <h1 class = "webcenter"><u>RELEVANT COURSEWORK</u></h1>
                 <h4> 
                     <ul>
-                        <li><strong>CS61A:</strong> Structure of Computer Programs</li>
+                    	<li ><strong>CS188:</strong> Artificial Intelligence</li>
+                    	<li class = "spacetop1"><strong>Data100</strong> Principles of Data Science</li>
+                        <li class = "spacetop1"><strong>CS61A:</strong> Structure of Computer Programs</li>
                         <li class = "spacetop1"><strong>CS61B:</strong> Date Structures and Advanced Programming</li>
-                        <li class = "spacetop1"><strong>Stat133:</strong> Concepts in Computing with Data</li>
                         <li class = "spacetop1"><strong>Stat134:</strong> Concepts of Probability</li>
                         <li class = "spacetop1"><strong>Math53:</strong> Multivariable Calculus</li>
                         <li class = "spacetop1"><strong>Math54:</strong> Linear Algebra</li>
                         <li class = "spacetop1"><strong>Math55:</strong> Discrete Mathematics/Probability Theory</li>
+                        <li class = "spacetop1"><strong>Econ136:</strong> Financial Economics</li>
                     </ul>
                 </h4>
             </div>
@@ -263,8 +275,8 @@
     <div class = "container-fluid bluecolorback">
         <div>
             <center>
-                <object class = "resumestuff" data = "websiteresume.pdf" type="application/pdf" width="700" height="650">
-                    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="resumeweb.pdf">Download PDF</a>.</p>
+                <object class = "resumestuff" data = "resforweb.pdf" type="application/pdf" width="700" height="650">
+                    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="resforweb.pdf">Download PDF</a>.</p>
                 </object>
             </center>
         </div>
